@@ -39,38 +39,38 @@ public class Baek_7F_Activity extends AppCompatActivity {
         textview=findViewById(R.id.textView6);
 
         final FrameLayout fl1 = (FrameLayout)findViewById(R.id.fl1);
-        myView mview= new myView(fl1.getContext());
-        fl1.addView(mview);
+        FL1View fl1view= new FL1View(fl1.getContext());
+        fl1.addView(fl1view);
         fl1.setVisibility(View.GONE);
 
         final FrameLayout fl2 = (FrameLayout)findViewById(R.id.fl2);
-        myyView mmview= new myyView(fl2.getContext());
-        fl2.addView(mmview);
+        FL2View fl2view= new FL2View(fl2.getContext());
+        fl2.addView(fl2view);
         fl2.setVisibility(View.GONE);
 
         final FrameLayout fl4 = (FrameLayout)findViewById(R.id.fl4);
-        myyyView mmmview= new myyyView(fl4.getContext());
-        fl4.addView(mmmview);
+        FL4View fl4view= new FL4View(fl4.getContext());
+        fl4.addView(fl4view);
         fl4.setVisibility(View.GONE);
 
         final FrameLayout fl5 = (FrameLayout)findViewById(R.id.fl5);
-        myyyyView mmmmview= new myyyyView(fl5.getContext());
-        fl5.addView(mmmmview);
+        FL5View fl5view= new FL5View(fl5.getContext());
+        fl5.addView(fl5view);
         fl5.setVisibility(View.GONE);
 
         final FrameLayout fl6 = (FrameLayout)findViewById(R.id.fl6);
-        nyView nview= new nyView(fl6.getContext());
-        fl6.addView(nview);
+        FL6View fl6view= new FL6View(fl6.getContext());
+        fl6.addView(fl6view);
         fl6.setVisibility(View.GONE);
 
         final FrameLayout fl7 = (FrameLayout)findViewById(R.id.fl7);
-        nyyView nnview= new nyyView(fl7.getContext());
-        fl7.addView(nnview);
+        FL7View fl7view= new FL7View(fl7.getContext());
+        fl7.addView(fl7view);
         fl7.setVisibility(View.GONE);
 
         final FrameLayout fl8 = (FrameLayout)findViewById(R.id.fl8);
-        nyyyView nnnview= new nyyyView(fl8.getContext());
-        fl8.addView(nnnview);
+        FL8View fl8view= new FL8View(fl8.getContext());
+        fl8.addView(fl8view);
         fl8.setVisibility(View.GONE);
 
         final FrameLayout flf = (FrameLayout)findViewById(R.id.flf);
@@ -134,8 +134,8 @@ public class Baek_7F_Activity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
 
-    public class myView extends View {
-        public myView(Context context) {
+    public class FL1View extends View {
+        public FL1View(Context context) {
             super(context);
         }
         @Override
@@ -159,8 +159,8 @@ public class Baek_7F_Activity extends AppCompatActivity {
     }
 
 
-    public class myyView extends View {
-        public myyView(Context context) {
+    public class FL2View extends View {
+        public FL2View(Context context) {
             super(context);
         }
         @Override
@@ -185,8 +185,8 @@ public class Baek_7F_Activity extends AppCompatActivity {
         }
     }
 
-    public class myyyView extends View {
-        public myyyView(Context context) {
+    public class FL4View extends View {
+        public FL4View(Context context) {
             super(context);
         }
         @Override
@@ -210,8 +210,8 @@ public class Baek_7F_Activity extends AppCompatActivity {
         }
     }
 
-    public class myyyyView extends View {
-        public myyyyView(Context context) {
+    public class FL5View extends View {
+        public FL5View(Context context) {
             super(context);
         }
         @Override
@@ -235,8 +235,8 @@ public class Baek_7F_Activity extends AppCompatActivity {
         }
     }
 
-    public class nyView extends View {
-        public nyView(Context context) {
+    public class FL6View extends View {
+        public FL6View(Context context) {
             super(context);
         }
         @Override
@@ -260,8 +260,8 @@ public class Baek_7F_Activity extends AppCompatActivity {
         }
     }
 
-    public class nyyView extends View {
-        public nyyView(Context context) {
+    public class FL7View extends View {
+        public FL7View(Context context) {
             super(context);
         }
         @Override
@@ -286,8 +286,8 @@ public class Baek_7F_Activity extends AppCompatActivity {
         }
     }
 
-    public class nyyyView extends View {
-        public nyyyView(Context context) {
+    public class FL8View extends View {
+        public FL8View(Context context) {
             super(context);
         }
         @Override
