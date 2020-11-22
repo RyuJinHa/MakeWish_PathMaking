@@ -114,13 +114,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="5dp"
-            android:src="@drawable/baseline_directions_run_black_18dp"/>
+            android:src="@drawable/baseline_local_hospital_black_18dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/nanum_eb"
-            android:text="생활안전"
+            android:text="생활 안전"
             android:textSize="17sp"
             android:paddingLeft="20dp"/>
     </LinearLayout>
